@@ -1,0 +1,136 @@
+%-------------------------
+% Resume in Latex
+% Author: Shakra Shamim
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Achyut Maharana} \\ \vspace{4pt}
+    \textbf{\Large \scshape Cloud \& ML Engineer} \\ \vspace{4pt}
+    \small \faPhone\ +91-7337421226~
+\href{mailto:achyutmaharana75@gmail.com}{\faEnvelope\ \underline{achyutmaharana75@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/achyut-maharana-137357228/}{\faLinkedin\ \underline{linkedin.com/in/achyut-maharana-137357228/}} 
+\end{center}
+
+%-----------SUMMARY-----------
+\section{SUMMARY}
+Cloud \& Machine Learning Engineer with experience in Azure DevOps and AI solutions. Skilled in AKS, Application Insights, Logic Apps, ADF, and Azure CLI for production operations. Experienced in data preparation, model training, UAT, and deployment using Python and Azure ML, delivering scalable and reliable AI-driven solutions.
+
+%-----------TECHNICAL SKILLS-----------
+\section{TECHNICAL SKILLS}
+\textbf{Cloud \& DevOps:} Azure K8s, Linux, Git, Azure Data Factory, Azure CLI, Azure DevOps  \\
+\textbf{Machine Learning:} Azure ML Studio, Python SDK, Model Training, UAT, Model Deployment \\
+\textbf{Programming:} Python , SQL
+
+%-----------INTERNSHIP-----------
+\section{PROFESSIONAL EXPERIENCE}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Cloud \& ML Engineer}{April 2024 -- Present}
+    {LTM (Bengaluru)}{Tools Used: Azure, SQL, Git}
+    \resumeItemListStart
+      \resumeItem{{Managed production-grade Azure Kubernetes Service (AKS) clusters, resolving critical P1 incidents and restoring services with minimal downtime.}}
+      \resumeItem{Performed proactive monitoring and root cause analysis using Azure Application Insights, strengthening system stability and preventing recurring failures.}
+      \resumeItem{Designed and automated workflows using Azure Logic Apps and built scalable Azure Data Factory (ADF) pipelines for reliable data integration.}
+      \resumeItem{Built and trained machine learning models using Python SDK within Azure ML Studio, ensuring accurate data preparation and performance validation.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\textbf{MarketShare - Share Of Shelf - HUL} }{April 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{{Led a 6-member team for data preparation and analysis in a Share of Shelf initiative for Hindustan Unilever, increasing model accuracy from 70\% to 90\% through optimized training strategies.}}
+        \resumeItem{Owned end-to-end model training workflows across FMCG categories such as Foods, Personal Wash, Skin and Hair Care covering brand, variant, and packaging-type classification.}
+        \resumeItem{Executed training pipelines using Python SDK in Azure ML, incorporating data augmentation techniques to improve robustness , reduce model bias and ensured consistent performance across retraining}
+        \resumeItem{Managed deployment and monitored production performance in Azure, ensuring scalable and reliable inference.}
+      \resumeItemListEnd
+ 
+\resumeSubHeadingListEnd
+
+%-----------AWARDS-----------
+\section{CERTIFICATIONS \& ACHIEVEMENTS}
+\resumeItemListStart
+  \resumeItem{\textbf{AZ-900: Microsoft Azure Fundamentals – Udemy (2026):} Foundational certification covering Azure cloud services, networking, security, storage, and virtualization concepts.}
+  \resumeItem{\textbf{Linux for Cloud \& DevOps Engineers – Udemy (2026):} Hands-on training in Linux administration, shell scripting, and operating system fundamentals for cloud environments.}
+  \resumeItem{\textbf{SQL Fundamentals – Simplilearn:} Strong understanding of DBMS concepts, PostgreSQL/MySQL queries, and relational data management.}
+  \resumeItem{\textbf{Cloud Computing with AWS – Abhyuday (Techgyaan)} Practical exposure to Amazon EC2, S3, VPC, and cloud deployment fundamentals.}
+  \resumeItem{\textbf{Super Crew Award (5x) } Recognized for commitment to client deliverables, timely releases, and resolving critical P1 production issues.}
+   \resumeItem{\textbf{Excellence Award – HUL (Unilever Group) –} Honored for significantly improving Share of Shelf model accuracy from through advanced training optimization and category-level model ownership in production.}
+\resumeItemListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Bachelor of Technology (B.Tech), Electronics \& Telecommunication Engineering}{Graduated: 2023}
+    {C.V. Raman Global University, Bhubaneswar}{CGPA: 8.1 / 10}
+\resumeSubHeadingListEnd
+
+\end{document}
+
